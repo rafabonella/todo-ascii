@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="app">
+        <h1>Minhas tarefas</h1>
+
+      <form id="task-form">
+        <input
+          type="text"
+          id="task-input"
+          placeholder="O que precisa ser feito?"
+          required
+        />
+        <button type="submit">Adicionar</button>
+      </form>
+
+      <p id="counter">0 tarefas pendentes</p>
+
+      <ul id="task-list"></ul>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
